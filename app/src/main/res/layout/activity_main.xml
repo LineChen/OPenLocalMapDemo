@@ -11,19 +11,25 @@
     tools:context="com.beiing.openlocalmapdemo.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地地图"
+        android:onClick="openLocalMap"/>
+
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="打开百度地图"
         android:onClick="openBaiduMap"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="打开网页百度地图"
         android:onClick="openWebBaiduMap"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="打开高德地图"
         android:onClick="openGaodeMap"/>
