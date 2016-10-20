@@ -14,7 +14,7 @@ Android应用中打开本地地图进行导航
 
 打开文档可以看到功能还是很多的，这里只介绍 **公交、驾车、导航、步行和骑行导航**
 
-![这里写图片描述](http://img.blog.csdn.net/20161020105128980)
+![app_route_api](https://github.com/LineChen/OPenLocalMapDemo/blob/master/screenshot/app_route_api.png)
 
 
 **注：必选项一定要填**
@@ -23,14 +23,16 @@ Android应用中打开本地地图进行导航
 
 > 参数
 
-![这里写图片描述](http://img.blog.csdn.net/20161020105205087)
+![web_route_api](https://github.com/LineChen/OPenLocalMapDemo/blob/master/screenshot/web_route_api.png)
 
 
 #2.3.打开高德地图应用
 
+[地址：http://lbs.amap.com/api/uri-api/guide/android-uri-explain/info/](http://lbs.amap.com/api/uri-api/guide/android-uri-explain/info/)
+
 >参数
 
-![这里写图片描述](http://img.blog.csdn.net/20161020105226902)
+![gd_app_route_api](https://github.com/LineChen/OPenLocalMapDemo/blob/master/screenshot/gd_app_route_api.png)
 
 
 #3.使用
@@ -228,4 +230,4 @@ public class OpenLocalMapUtil {
 
 效果图：
 
-![这里写图片描述](http://img.blog.csdn.net/20161020105241137)
+![这里写图片描述](https://github.com/LineChen/OPenLocalMapDemo/blob/master/screenshot/Screenshot_2016-10-20-09-57-22-148_com.baidu.Baid.png)
