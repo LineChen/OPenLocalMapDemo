@@ -11,10 +11,13 @@ import com.amap.api.location.CoordinateConverter;
 import com.amap.api.location.DPoint;
 import com.cocosw.bottomsheet.BottomSheet;
 
+/**
+ * 注意：起点位置需要通过定位来获取当前位置，否则查不到结果
+ */
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * 当前位置 : 注意 这个需要实时定位，否则找不到结果
+     * 当前位置
      */
     private static double[] START_LATLON = {120.11649,30.272873};
     /**
